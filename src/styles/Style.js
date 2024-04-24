@@ -46,36 +46,7 @@ export const styles = StyleSheet.create({
     width: 200,
     borderRadius: 10,
   },
-  modal1: {
-    width: "100%",
-    height: "100%",
-    backgroundColor: "green",
-    alignItems: "center",
-    justifyContent: "center",
-  },
 
-  modalalg: {
-    justifyContent: "center",
-    alignItems: "center",
-    flex: 1,
-  },
-  btnModal: {
-    backgroundColor: "red",
-    alignItems: "center",
-    justifyContent: "center",
-    marginLeft: 30,
-    marginBottom: 50,
-    padding: 1,
-
-    height: 50,
-    width: 200,
-    borderRadius: 10,
-  },
-  txtModal: {
-    fontSize: 20, // Define o tamanho da fonte
-    alignItems: "center",
-    justifyContent: "center",
-  },
   footer: {
     height: "8%", // Define a altura do componente Footer
     backgroundColor: "black", // Define a cor de fundo
@@ -84,5 +55,29 @@ export const styles = StyleSheet.create({
     fontSize: 25,
     textAlign: "center",
     fontWeight: "bold",
+  },
+
+  imgsconteudo: {
+    width: 300,
+    height: 300,
+    margin: 30,
+    marginBottom: 5,
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 10,
+  },
+  algconteudo: {
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  tituloiporanga: {
+    alignItems: "center",
+  },
+  txt_titulocidade: {
+    fontSize: 25,
+    margin: 10,
+  },
+  txtconteudo: {
+    margin: 15,
   },
 });
