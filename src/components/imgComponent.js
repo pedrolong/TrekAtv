@@ -19,7 +19,7 @@ const navigation= useNavigation();
       <TouchableOpacity  style={styles.button} onPress={() =>{ visModal(true); navigation.navigate(nameFunction) }}>
         <Text style={styles.txtImg}>{txt}</Text>
       </TouchableOpacity>
-      <Text>conheça as belezas de {nomecidade}</Text>
+      <Text style={styles.txt_introduçaocidade}> É {nomecidade}</Text>
     </View>
   );
 }

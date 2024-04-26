@@ -3,13 +3,13 @@ import { styles } from "../styles/Style";
 
 export default function Holambra() {
   const deckamor = {
-    uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXfb2TgUoIh6lZUqVF3wrPLV_aEaEHjEJ0TA&usqp=CAU",
+    uri: "https://fastly.4sqi.net/img/general/600x600/42147299_ETtWCdkkPNkAI-km2ByYAwE40XmLNZ5xKeOIH3-1W7w.jpg",
   };
   const expoflora = {
-    uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQxu9Z7TMJG-gVCcUnrnMZR_f3dtt4UNdy1w&usqp=CAU",
+    uri: "https://brandnews.com.br/images/noticias/6727/13090908_IMG-4709.jpg",
   };
   const campodeflor = {
-    uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU0VBH2jKtE70xldYqtWJuIbJRtyU8TbOGXA&usqp=CAU",
+    uri: "https://i.pinimg.com/originals/5f/d0/fc/5fd0fc0021a7eb20ecb0e7031a049406.jpg",
   };
 
   return (

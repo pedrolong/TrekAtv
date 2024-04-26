@@ -3,16 +3,16 @@ import { styles } from "../styles/Style";
 
 export default function Ilhabela() {
   const praiadafeitiçeira = {
-    uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzK-XYRR3VoseQPsdN24wHlttusquLEW9fCw&usqp=CAU",
+    uri: "https://www.ilhabela.com.br/wp-content/uploads/2012/11/praia-da-feiticeira-ilhabela-1.jpg",
   };
   const praiabonete = {
-    uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTUTabZgjZ3CCU-51X5I-NTOmIfVm-JrCALA&usqp=CAU",
+    uri: "https://www.ilhabela.com.br/wp-content/uploads/2012/11/praia-do-bonete.jpg",
   };
   const praiacastelhanos = {
-    uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc6cns_1D7Ches71imJVL5QA9mfay-urStEQ&usqp=CAU",
+    uri: "https://ilhaeco.com.br/home/wp-content/uploads/2023/04/resized-CASTELHANOS-12-Grande.jpeg",
   };
   const praiagarapocaia = {
-    uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDp70XsWZzD7FKtOPNdFghfYWOd_iE-Y8Jtg&usqp=CAU",
+    uri: "https://imgmd.net/images/v1/guia/1622597/praia-da-pedra-do-sino-garapocaia.jpg",
   };
 
   return (

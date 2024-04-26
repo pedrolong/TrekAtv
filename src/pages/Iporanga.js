@@ -6,7 +6,7 @@ export default function Iporanga() {
     uri: "https://imagedelivery.net/EafvxYlk8cSUsWEWsetEdQ/4d9496bf-b31d-4ecb-a29c-66590363c500/w=1000",
   };
   const casadepedra = {
-    uri: "https://www.petaronline.com.br/wp-content/uploads/2015/02/topo-petar.jpg",
+    uri: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Parque_Estadual_Tur%C3%ADstico_do_Alto_Ribeira_Thomas-Fuhrmann_%2803%29.jpg/1200px-Parque_Estadual_Tur%C3%ADstico_do_Alto_Ribeira_Thomas-Fuhrmann_%2803%29.jpg",
   };
   const imgcavernadodiabo = {
     uri: "https://www.aventurasp.com.br/imagens/carousel-caverna-do-diabo-01.jpg",

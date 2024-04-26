@@ -8,6 +8,7 @@ export const styles = StyleSheet.create({
   header: {
     height: "10%", // Define a altura do HEADER
     backgroundColor: "#54b53f", // Define a cor de fundo
+    justifyContent: "center"
   },
 
   img: {
@@ -15,23 +16,22 @@ export const styles = StyleSheet.create({
     height: 300,
     margin: 30,
     marginBottom: 5,
-   
     borderRadius: 10,
   },
   body: {
-    height: "40%", // Define a altura do componente Footer
-    backgroundColor: "##54b53f", // Define a cor de fundo
+    flex:1,
+    
   },
 
   txtImg: {
-    fontSize: 30, // Define o tamanho da fonte
+    fontStyle: "italic",
+    fontSize: 20, // Define o tamanho da fonte
   },
   txtHeader: {
-    fontSize: 30, // Define o tamanho da fonte
-    alignItems: "center",
-    justifyContent: "flex-end",
-    paddingTop: "10%",
-    marginLeft: "5%",
+    fontSize: 28, // Define o tamanho da fonte
+   
+    fontStyle: "italic",
+    textAlign: "center",
   },
   button: {
     backgroundColor: "#54b53f",
@@ -39,13 +39,15 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
     marginBottom: 10,
     padding: 1,
-    height: 50,
-    width: 200,
+    height: 40,
+    width: 150,
     borderRadius: 10,
   },
 
   footer: {
-    height: "8%", // Define a altura do componente Footer
+    alignItems: "center",
+    justifyContent: "center",
+    height: "100", // Define a altura do componente Footer
     backgroundColor: "#54b53f", // Define a cor de fundo
   },
   slogan: {
@@ -77,5 +79,21 @@ export const styles = StyleSheet.create({
   },
   txtconteudo: {
     margin: 15,
+    textAlign: "justify",
+    borderBottomColor:"black",
+    borderBottomWidth: 1,
   },
+  txt_introduçaocidade:{
+    textAlign: "center",
+    fontSize: 18,
+    margin: 5,
+    borderColor:"black",
+    borderWidth: 1,    
+    width: 300,
+    borderRadius: 10,
+    backgroundColor:"#edf0ee"
+
+    
+  },
+  
 });
