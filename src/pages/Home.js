@@ -1,9 +1,8 @@
 import { View, Text, FlatList, ImageComponent } from "react-native";
 import { styles } from "../styles/Style";
-import { useState } from "react";
-import { NavigationContainer } from "@react-navigation/native";
 import Img from "../components/imgComponent";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
+
 
 const Stack = createNativeStackNavigator();
 export default function Home() {
@@ -23,14 +22,14 @@ export default function Home() {
   const dados = [
     {
       id: "1",
-      component: <Img caminhoImg={img2} txt="Holambra-SP" />,
+      component: <Img caminhoImg={img2} txt="Holambra-SP" nameFunction={"Holambra"} />,
     },
     {
       id: "2",
-      component: <Img caminhoImg={img6} txt="Serra Negra-Sp" />,
+      component: <Img caminhoImg={img6} txt="Analândia" nameFunction={"Analândia"} />,
     },
-    { id: "3", component: <Img caminhoImg={img3} txt="Iporanga-SP" /> },
-    { id: "4", component: <Img caminhoImg={img4} txt="Socorro-SP" /> },
+    { id: "3", component: <Img caminhoImg={img3} txt="Iporanga-SP" nameFunction={"Iporanga"} /> },
+    { id: "4", component: <Img caminhoImg={img4} txt="Ilhabela-SP" nameFunction={"Ilhabela"} /> },
   ];
 
   const rdItem = ({ item }) => {

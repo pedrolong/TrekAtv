@@ -7,7 +7,7 @@ export const styles = StyleSheet.create({
 
   header: {
     height: "10%", // Define a altura do HEADER
-    backgroundColor: "#2A6A8E", // Define a cor de fundo
+    backgroundColor: "#54b53f", // Define a cor de fundo
   },
 
   img: {
@@ -21,7 +21,7 @@ export const styles = StyleSheet.create({
   },
   body: {
     height: "40%", // Define a altura do componente Footer
-    backgroundColor: "#2A6A8E", // Define a cor de fundo
+    backgroundColor: "##54b53f", // Define a cor de fundo
   },
 
   txtImg: {
@@ -35,7 +35,7 @@ export const styles = StyleSheet.create({
     marginLeft: "5%",
   },
   button: {
-    backgroundColor: "lightblue",
+    backgroundColor: "#54b53f",
     alignItems: "center",
     justifyContent: "center",
     marginLeft: 30,
@@ -49,7 +49,7 @@ export const styles = StyleSheet.create({
 
   footer: {
     height: "8%", // Define a altura do componente Footer
-    backgroundColor: "black", // Define a cor de fundo
+    backgroundColor: "#54b53f", // Define a cor de fundo
   },
   slogan: {
     fontSize: 25,
