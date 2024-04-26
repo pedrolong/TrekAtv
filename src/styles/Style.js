@@ -11,12 +11,11 @@ export const styles = StyleSheet.create({
   },
 
   img: {
-    width: 200,
-    height: 200,
+    width: 300,
+    height: 300,
     margin: 30,
     marginBottom: 5,
-    justifyContent: "center",
-    alignItems: "center",
+   
     borderRadius: 10,
   },
   body: {
@@ -38,10 +37,8 @@ export const styles = StyleSheet.create({
     backgroundColor: "#54b53f",
     alignItems: "center",
     justifyContent: "center",
-    marginLeft: 30,
     marginBottom: 10,
     padding: 1,
-
     height: 50,
     width: 200,
     borderRadius: 10,
@@ -72,6 +69,7 @@ export const styles = StyleSheet.create({
   },
   tituloiporanga: {
     alignItems: "center",
+    backgroundColor: "#54b53f",
   },
   txt_titulocidade: {
     fontSize: 25,

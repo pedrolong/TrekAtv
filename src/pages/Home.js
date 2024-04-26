@@ -2,6 +2,7 @@ import { View, Text, FlatList, ImageComponent } from "react-native";
 import { styles } from "../styles/Style";
 import Img from "../components/imgComponent";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import Holambra from "./Holambra";
 
 
 const Stack = createNativeStackNavigator();
@@ -22,7 +23,7 @@ export default function Home() {
   const dados = [
     {
       id: "1",
-      component: <Img caminhoImg={img2} txt="Holambra-SP" nameFunction={"Holambra"} />,
+      component: <Img caminhoImg={img2} txt="Holambra-SP" nameFunction={"Holambra"} nomecidade={"Holambra"} />,
     },
     {
       id: "2",
@@ -30,6 +31,7 @@ export default function Home() {
     },
     { id: "3", component: <Img caminhoImg={img3} txt="Iporanga-SP" nameFunction={"Iporanga"} /> },
     { id: "4", component: <Img caminhoImg={img4} txt="Ilhabela-SP" nameFunction={"Ilhabela"} /> },
+    
   ];
 
   const rdItem = ({ item }) => {
@@ -48,16 +50,15 @@ export default function Home() {
         data={dados} // Ele está recebendo todos os objetos do nosso array data
         renderItem={rdItem} // Chama a função para renderizar as Views box
         keyExtractor={(dados) => dados.id} // Extrair o id do objeto
-        horizontal
-      />
+        
+    
 
-      <View style={styles.body}>
-        <Text style={styles.slogan}>
-          Encontre aqui no nosso app os principais pontos turísticos e atrações
-          para você aproveitar! Conectando você ao seu próximo destino
-        </Text>
+     
+       
+        />
+      <View style={styles.footer}>
+        <Text>Conectando você ao seu próximo destino.</Text>
       </View>
-      <View style={styles.footer}></View>
     </View>
   );
 }

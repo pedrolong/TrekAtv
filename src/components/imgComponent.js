@@ -3,7 +3,7 @@ import { styles } from "../styles/Style";
 import { useState } from "react";
 import { useNavigation } from "@react-navigation/native";
 
-export default function Img({ caminhoImg, txt, txtConteudo,nameFunction }) {
+export default function Img({ caminhoImg, txt, txtConteudo,nameFunction, nomecidade }) {
   const [visible, setVisible] = useState(false);
   visModal = (vis) => {
     if (!visible) {
@@ -14,11 +14,12 @@ export default function Img({ caminhoImg, txt, txtConteudo,nameFunction }) {
   };
 const navigation= useNavigation();
   return (
-    <View>
+    <View style={styles.algconteudo}>
       <Image style={styles.img} source={caminhoImg} />
       <TouchableOpacity  style={styles.button} onPress={() =>{ visModal(true); navigation.navigate(nameFunction) }}>
         <Text style={styles.txtImg}>{txt}</Text>
       </TouchableOpacity>
+      <Text>conheça as belezas de {nomecidade}</Text>
     </View>
   );
 }
