@@ -26,11 +26,11 @@ export default function Holambra() {
             como inspiração para os casais apaixonados e conta com um lugar onde
             os pombinhos podem colocar um cadeado com o nome do casal. Assim
             como acontece em Paris, os apaixonados jogam as chaves do cadeado
-            fora, neste caso, no lago Vitoria Regia.{"\n"}Localização: Alameda
-            Maurício de Nasau, 54-84 - Secção A {"\n"}O deck do amor fica aberto
+            fora, neste caso, no lago Vitória Régia.{"\n"}Localização: Alameda
+            Maurício de Nasau, 54-84 - Seção A {"\n"}O deck do amor fica aberto
             24 horas;
             {"\n"}
-            Não tem nenhum preço de custo;
+            Entrada gratuita.
           </Text>
         </View>
         <View style={styles.algconteudo}>
@@ -43,11 +43,11 @@ export default function Holambra() {
             O Moinho Povos Unidos de Holambra preserva as características
             originais de sua construção, portanto, a locomoção dentro do local é
             feita por meio de escadas. São seis andares abertos para visitação e
-            é considerado o maior moinho da América latina.{"\n"} Localização:
+            é considerado o maior moinho da América latina.{"\n"}Localização:
             Alameda Maurício de Nasau, 249 - centro{"\n"}
-            Horario: quarta a domingo das 10:00 ás 17:00{"\n"} Para visualização
-            é gratuita, para visitação interna do moinho é 16,00 por pessoa e a
-            meia entrada é 08,00
+            Horario: quarta a domingo das 10:00h às 17:00h{"\n"}Para visualização
+            é gratuita, para visitação interna do moinho é R$16,00 por pessoa e a
+            meia entrada é R$8,00.
           </Text>
         </View>
         <View style={styles.algconteudo}>
@@ -58,9 +58,9 @@ export default function Holambra() {
             flores e plantas ornamentais da América Latina {"\n"}
             Evento vai acontecer do dia 30/08 ao dia 29/09, apenas de sexta,
             sábado e domingo{"\n"}
-            Horário: das 09:00 as 19:00 {"\n"}
+            Horário: das 09:00 às 19:00 {"\n"}
             Localização: Alameda Maurício de Nasau, 894 - Centro {"\n"}
-            Ingressos: Variam do dia, mas vai de 60 a 100 reais a inteira.
+            Ingressos: Variam entre R$60 a R$100 reais a inteira dependendo do dia.
           </Text>
         </View>
         <View style={styles.algconteudo}>
@@ -68,9 +68,9 @@ export default function Holambra() {
           <Text>Campos de Flores :</Text>
           <Text style={styles.txtconteudo}>
             Campos de flores na verdade nao é um ponto especifico pois a cidade
-            possui varias plantaçoes,que deixam marcado pela quantidade.{"\n"}De
-            flores Coloridas normalmente na primavera {"\n"}Localização:
-            Holambra;
+            possui varias plantações, que deixam marcado pela quantidade de
+            flores coloridas normalmente na primavera. {"\n"}Localização:
+            Holambra.
           </Text>
         </View>
         <View style={styles.footer}></View>

@@ -8,7 +8,7 @@ export const styles = StyleSheet.create({
   header: {
     height: "10%", // Define a altura do HEADER
     backgroundColor: "#54b53f", // Define a cor de fundo
-    justifyContent: "center"
+    justifyContent: "center",
   },
 
   img: {
@@ -19,8 +19,7 @@ export const styles = StyleSheet.create({
     borderRadius: 10,
   },
   body: {
-    flex:1,
-    
+    flex: 1,
   },
 
   txtImg: {
@@ -29,19 +28,16 @@ export const styles = StyleSheet.create({
   },
   txtHeader: {
     fontSize: 28, // Define o tamanho da fonte
-   
+
     fontStyle: "italic",
     textAlign: "center",
   },
   button: {
-    backgroundColor: "#54b53f",
-    alignItems: "center",
-    justifyContent: "center",
-    marginBottom: 10,
-    padding: 1,
-    height: 40,
-    width: 150,
+    margin: 10,
+    width: 70,
+    height: 10,
     borderRadius: 10,
+    marginLeft: -18,
   },
 
   footer: {
@@ -80,20 +76,48 @@ export const styles = StyleSheet.create({
   txtconteudo: {
     margin: 15,
     textAlign: "justify",
-    borderBottomColor:"black",
+    borderBottomColor: "black",
     borderBottomWidth: 1,
   },
-  txt_introduçaocidade:{
+  txt_introduçaocidade: {
     textAlign: "center",
     fontSize: 18,
     margin: 5,
-    borderColor:"black",
-    borderWidth: 1,    
+    borderColor: "black",
+    borderWidth: 1,
     width: 300,
     borderRadius: 10,
-    backgroundColor:"#edf0ee"
-
-    
+    backgroundColor: "#edf0ee",
   },
-  
+  imgbutton: {
+    width: 170,
+    height: 170,
+    justifyContent: "center",
+    alignItems: "center",
+    margin: 30,
+    borderRadius: 10,
+  },
+  button2: {
+    margin: 170,
+    marginLeft: -18,
+    height: 40,
+    width: 150,
+    borderRadius: 10,
+  },
+  button3: {
+    margin: -230,
+    marginLeft: 178,
+    height: 40,
+    width: 150,
+    borderRadius: 10,
+    paddingTop: 20,
+  },
+  button4: {
+    margin: 10,
+    marginLeft: 178,
+    height: 10,
+    width: 150,
+    borderRadius: 10,
+    paddingTop: 10,
+  },
 });
