@@ -34,10 +34,9 @@ export const styles = StyleSheet.create({
   },
   button: {
     margin: 10,
-    width: 70,
-    height: 10,
     borderRadius: 10,
-    marginLeft: -18,
+    width: 170,
+    height: 170,
   },
 
   footer: {
@@ -76,22 +75,11 @@ export const styles = StyleSheet.create({
   txtconteudo: {
     margin: 15,
     textAlign: "justify",
-    borderBottomColor: "black",
-    borderBottomWidth: 1,
   },
-  txt_introduçaocidade: {
-    textAlign: "center",
-    fontSize: 18,
-    margin: 5,
-    borderColor: "black",
-    borderWidth: 1,
-    width: 300,
-    borderRadius: 10,
-    backgroundColor: "#edf0ee",
-  },
+
   imgbutton: {
-    width: 170,
-    height: 170,
+    width: "100%",
+    height: "100%",
     justifyContent: "center",
     alignItems: "center",
     margin: 30,
@@ -119,5 +107,34 @@ export const styles = StyleSheet.create({
     width: 150,
     borderRadius: 10,
     paddingTop: 10,
+  },
+  txtBody: {
+    fontSize: 28, // Define o tamanho da fonte
+    fontStyle: "italic",
+    textAlign: "center",
+  },
+  BtnPacotes: {
+    borderRadius: 10,
+    width: 170,
+    height: 70,
+    backgroundColor: "#54b53f",
+    justifyContent:"center",
+    alignItems:"center",
+  },
+  txtButton:{
+    fontSize:30,
+    fontWeight:"bold",
+  },
+  txtpacote: {
+    margin: 15,
+    textAlign: "center",
+   marginTop: 260,
+   fontSize: 20,
+   fontStyle: "italic",
+  },
+  txtviagem: {
+  fontSize: 20,
+  fontStyle: "italic",
+  textAlign: "center",
   },
 });

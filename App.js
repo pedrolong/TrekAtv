@@ -6,15 +6,15 @@ import Home from "./src/pages/Home";
 const Stack = createNativeStackNavigator();
 import Holambra from "./src/pages/Holambra";
 import Ilhabela from "./src/pages/Ilhabela";
-import Analândia from "./src/pages/Analâlandia";
+import Analândia from "./src/pages/Analândia";
+import Pacotes from "./src/pages/Pacotes";
 
+import MapScreen from "./src/pages/maps";
 
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home"
-      
-      >
+      <Stack.Navigator initialRouteName="Mapa">
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen
           name="Analândia"
@@ -23,31 +23,33 @@ export default function App() {
             headerTintColor: "black",
             headerStyle: { backgroundColor: "white" },
           }}
-        /> 
+        />
         <Stack.Screen
-        name="Iporanga"
-        component={Iporanga}
-        options={{
-          headerTintColor: "black",
-          headerStyle: { backgroundColor: "white" },
-        }}
-      />
-      <Stack.Screen
-        name="Ilhabela"
-        component={Ilhabela}
-        options={{
-          headerTintColor: "black",
-          headerStyle: { backgroundColor: "white" },
-        }}
-      />
-       <Stack.Screen
-        name="Holambra"
-        component={Holambra}
-        options={{
-          headerTintColor: "black",
-          headerStyle: { backgroundColor: "white" },
-        }}
-      />
+          name="Iporanga"
+          component={Iporanga}
+          options={{
+            headerTintColor: "black",
+            headerStyle: { backgroundColor: "white" },
+          }}
+        />
+        <Stack.Screen
+          name="Ilhabela"
+          component={Ilhabela}
+          options={{
+            headerTintColor: "black",
+            headerStyle: { backgroundColor: "white" },
+          }}
+        />
+        <Stack.Screen
+          name="Holambra"
+          component={Holambra}
+          options={{
+            headerTintColor: "black",
+            headerStyle: { backgroundColor: "white" },
+          }}
+        />
+        <Stack.Screen name="Pacotes" component={Pacotes} />
+        <Stack.Screen name="Mapa" component={MapScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
