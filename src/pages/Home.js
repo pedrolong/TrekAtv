@@ -22,14 +22,15 @@ export default function Home() {
           titleAnalalandia="Analândia"
         />
       </View>
-      <Text style={styles.txtpacote}>Conheça todos os nossos pacotes com preços imperdíveis </Text>
+      <Text style={styles.txtpacote}>
+        Conheça todos os nossos pacotes com preços imperdíveis{" "}
+      </Text>
       <BtnPacotes />
-      
+
       <View style={styles.footer}>
         <Text style={{ fontSize: 15, fontStyle: "italic" }}>
           Conectando você ao seu próximo destino.
         </Text>
-        
       </View>
     </View>
   );

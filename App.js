@@ -9,8 +9,6 @@ import Ilhabela from "./src/pages/Ilhabela";
 import Analândia from "./src/pages/Analândia";
 import Pacotes from "./src/pages/Pacotes";
 
-import MapScreen from "./src/pages/maps";
-
 export default function App() {
   return (
     <NavigationContainer>
@@ -49,7 +47,6 @@ export default function App() {
           }}
         />
         <Stack.Screen name="Pacotes" component={Pacotes} />
-        <Stack.Screen name="Mapa" component={MapScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
